@@ -67,6 +67,7 @@
 
 .tabs__wrapper {
     display: flex;
+
 }
 
 .cancel,
@@ -85,11 +86,12 @@
 
 .tab {
     &.active {
-        background: $primary-color;
-        color: #fff;
+        background: var(#{--components-background-default});
+        color: var(#{--text-color-default});
     }
 }
 
 .cancel {
     margin-right: 0;
 }
+
