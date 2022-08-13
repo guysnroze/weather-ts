@@ -15,7 +15,7 @@ const Home = (props: Props) => {
     const {weather} = useCustomSelector(selectCurrentWeatherData)
 
     useEffect(() => {
-       dispatch(fetchCurrentWeather('')) 
+       dispatch(fetchCurrentWeather('paris')) 
     }, [])
 
     return (
