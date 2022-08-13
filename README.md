@@ -3,7 +3,7 @@
 ![](src/assets/icons/images/darktheme.png)
 ![](src/assets/icons/images/lightteme.png) 
 
-Weather App built with React/TypeScript.
+Weather App build with React/TypeScript.
 
 ## Tech Stack
 ___
